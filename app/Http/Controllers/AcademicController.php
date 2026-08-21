@@ -13,8 +13,9 @@ class AcademicController extends Controller
         | EXPERIMENTO 5 - LATENCIA ARTIFICIAL
         |--------------------------------------------------------------------------
         | 500000 microsegundos = 500 milisegundos
-        */
+        
         usleep(500000);
+        */
 
         return response()->json([
             'courses' => [
